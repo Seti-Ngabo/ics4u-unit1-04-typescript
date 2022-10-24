@@ -29,7 +29,7 @@ while (true) {
       console.log(`It took you ${firstInt} tries.`)
       break
     } else if (user > randomInt) {
-	    console.log('You guessed too high, guess again.')
+      console.log('You guessed too high, guess again.')
     } else {
       console.log('You guessed too low, guess again.')
     }
